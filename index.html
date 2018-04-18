@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Clay Murphree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Project 6 Version 1.0, author Clay Murphree
+works on Chrome, Safari, FireFox
+Known problems, flex boxes will not collapse into one row, the record is not entierly responsive -->
+<!-- Functional splash screen -->
+<header>
+  <!-- nav bar, includes a functioning themeswitcher -->
+  <div id="nav-bar">
+    <ul class="nav-bar">
+      <li class="item"><a class="active" href="#">Home</a></li>
+      <li id="one"><a href="#news">News</a></li>
+      <li><a href="#">About</a></li>
+      <button type="button" id="light-mode">Light Mode </button>
+      <button id="night-mode">Dark Mode </button>
+    </ul>
+  </div>
+   <!-- Record that animates on load, made entierly in CSS, probably would have been easier if i had just uploaded an image in a container -->
+  <div class="welcomerecord">
+    <div id="line1" class="line"></div>
+    <div id="line2" class="line"></div>
+    <div id="line3" class="line"></div>
+    <div class="welcomerecordinner">
+      <div class="hole">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="headerbox">
+    <h1> Florence Spinners</h1>
+    <h3> Vinyl's for you</h3>
+  </div>
+</header>
+<div id="intro-box">
+  <div id="about-box">
+    <h1> About Us</h1>
+    Florence Spinners is a record store coming to downtown Florence. We specialize in records both new and old. Expect to see us downtown in the near future.
+  </div>
+</div>
+<!-- container area for 3 x 4 collection of flexed albums, known problem that it will not collapse into one column -->
+<div id="flex-wrapper">
+  <h1> Recent Arrivals </h1>
+  <div class="row">
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Menomena_-_Friend_or_Foe_-_2007.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e7/We_Cool_Album_Cover.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/00/Bat_out_of_Hell.jpg">
+    </div>
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/23/BostonBoston.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Pure_Comedy.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/63/Radiohead_-_Hail_to_the_Thief_-_album_cover.jpg">
+    </div>
+    <div class="column">
+      <img src= https://upload.wikimedia.org/wikipedia/en/2/2f/How_To_Be_A_Human_Being_cover_art.jpg>
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/In_Utero_%28Nirvana%29_album_cover.jpg">
+      <img src="https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F03989ee3c8e9a3e5bbd7857732752d67.1000x1000x1.jpg">
+    </div>
+    <div class="column">
+      <img src= 
+           "https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png">
+      <img src=https://upload.wikimedia.org/wikipedia/en/7/70/Graduation_%28album%29.jpg>
+      <img src = 
+           "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg">
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
